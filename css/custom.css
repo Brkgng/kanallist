@@ -1,0 +1,112 @@
+.page-header {
+  font-size: 1rem;
+}
+
+.header-a {
+  text-decoration: none;
+}
+
+.title {
+  position: absolute;
+  top: 27px;
+  color: black;
+}
+
+.description-text {
+  line-height: 25px !important;
+  font-size: 18px !important;
+  margin-bottom: 10px !important;
+}
+
+.f-Noto {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.f-Pacifico {
+  font-family: "Pacifico", cursive;
+}
+
+.f-Poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.f-Kaushan {
+  font-family: "Kaushan Script", cursive;
+  font-size: 23px;
+}
+
+@media (min-width: 1400px) {
+  .f-Yellowtail {
+    font-size: 30px;
+  }
+}
+
+.bg-teal {
+  background-color: #d5eff7;
+}
+
+.nav-link-hover:hover {
+  background-color: #d5eff7;
+  border-radius: 5px;
+}
+
+.rounded-12 {
+  border-radius: 12px;
+}
+
+.min-height {
+  min-height: calc(100vh - 32px);
+}
+
+.card-header,
+.card-body {
+  width: 66%;
+}
+
+.card-width {
+  width: 370px !important;
+}
+
+.fs-4 {
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+.channel-title {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.channel-title:hover {
+  color: #fb3640;
+}
+
+.select-width {
+  width: 310px !important;
+}
+
+.thumbnail-size {
+  width: 100px !important;
+  height: 120px !important;
+}
+
+@media (min-width: 992px) {
+  .w-lg-90 {
+    width: 90%;
+  }
+  .w-lg-85 {
+    width: 85%;
+  }
+}
+
+@media (min-width: 768px) {
+  .w-md-82 {
+    width: 82%;
+  }
+  .w-md-83 {
+    width: 83%;
+  }
+  .w-md-85 {
+    width: 85%;
+  }
+}
