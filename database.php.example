@@ -1,0 +1,9 @@
+<?php
+define("DB_HOST", "**********");
+define("DB_NAME", "*********");
+define("DB_USERNAME", "********");
+define("DB_PASSWORD", "***********");
+
+// Database Connection
+$pdo = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME, DB_USERNAME, DB_PASSWORD);
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
